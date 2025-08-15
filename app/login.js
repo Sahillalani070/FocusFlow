@@ -34,7 +34,7 @@ export default function LoginScreen() {
             <TextInput
                 placeholder="Password"
                 value={password}
-                onChange={setPassword}
+                onChangeText={setPassword}
                 secureTextEntry
                 style={{ borderWidth: 1, marginBottom: 10 }}
             />
