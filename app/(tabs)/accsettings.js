@@ -1,1 +1,0 @@
-//code for account settings like loging out, details about account and spotify set-up
