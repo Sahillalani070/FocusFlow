@@ -13,7 +13,7 @@ export default function LoginScreen() {
     const handleLogin = async () => {
         try {
             await signInWithEmailAndPassword(auth, email, password);
-            router.replace("./(tabs)/focus")
+            router.replace("./spotifyLogin")
         }
         catch (err) {
             setError(err.message);
